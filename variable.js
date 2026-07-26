@@ -6,3 +6,5 @@ var age;
 console.log(age);
 console.log(weight);
 console.log(price);
+money=50;
+console.log(money)
