@@ -29,3 +29,25 @@ const num = 50/0;
 console.log(num);
 const num1 = -50/0;
 console.log(num1);
+
+// Arithmetic Operations
+
+var apple_price = 200 ;
+apple_price += 100;
+console.log(apple_price);
+
+var komola_price = 250;
+komola_price -= 50;
+console.log(komola_price);
+
+var vitcoin_price = 1000;
+vitcoin_price *= 2;
+console.log(vitcoin_price);
+
+var bd_sheare = 500;
+bd_sheare /= 2;
+console.log(bd_sheare);
+
+var mod = 50;
+mod %= 3;
+console.log(mod);
