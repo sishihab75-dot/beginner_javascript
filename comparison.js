@@ -47,3 +47,29 @@ if((age>20 || bcs == true) && name == "shihab")
 {
     console.log("khela hobe :");
 }
+
+
+//  multi level condition 
+
+var pric = 2000;
+
+
+if(pric >= 4000){
+    // 20% discound 
+    const discound = pric * 20/100;
+    const payamount = pric-discound;
+    console.log(payamount);
+}
+else if (pric >= 3000){
+    const discound = pric*10/100;
+    const payamount = pric - discound;
+    console.log(payamount);
+}
+else if (pric >= 2000){
+    const discound = pric*5/100;
+    const payamount = pric - discound;
+    console.log(payamount);
+}
+else{
+    console.log(pric);
+}
