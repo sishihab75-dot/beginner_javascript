@@ -29,3 +29,21 @@ if(number > 8)
 else{
     console.log("dont drink water :");
 }
+
+var name = "jodu" ;
+var age = 22;
+var bcs = true;
+var waight = 70;
+if(age>20 || bcs == true)
+{
+    console.log("khela hobe :");
+}
+
+if((age>20 || name == "shihab") && bcs == true)
+{
+    console.log("khela hobe :");
+}
+if((age>20 || bcs == true) && name == "shihab")
+{
+    console.log("khela hobe :");
+}
