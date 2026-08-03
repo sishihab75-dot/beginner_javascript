@@ -73,3 +73,6 @@ else if (pric >= 2000){
 else{
     console.log(pric);
 }
+
+// nested if else 
+// ternary
