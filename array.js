@@ -1,4 +1,5 @@
 const number = [10,11,12,13,14,15,16,17,18,19,20,]
+const numbers = [10,11,12,13,14,15,16,17,18,19,20,21]
 console.log("Total array elimant :" , number.length);
 console.log("This index number eliment valu is :",number[5]);
 
@@ -10,6 +11,18 @@ console.log("This index number eliment valu is :",number[5]);
 //     console.log("Index:", index, "Value:", num);
 // }
 
-for(let i=0; i<number.length;i++){
-    console.log("index :",i,"valu :",number[i]);
+// for(let i=0; i<number.length;i++){
+//     console.log("index :",i,"valu :",number[i]);
+// }
+
+// let i=0;
+// while(i<number.length){
+//     console.log("index :",i,"valu :",number[i]);
+//     i++;
+// }
+let num = 0;
+for(let i=0;i<numbers.length; i++){
+    // console.log("the bumber is :", numbers[i]);
+    num = num + numbers[i];
 }
+console.log("some of the number :", num);

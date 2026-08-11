@@ -76,3 +76,14 @@ else{
 
 // nested if else 
 // ternary
+//  array 
+// array length 
+// array index
+// array push
+// array pop 
+// array shift
+// array unshift 
+// includes
+// array indexof
+// isarray
+// 
